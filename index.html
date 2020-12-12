@@ -8,13 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header id="header" class="header">
         <div class="container">
             <div class="nav">
-                <ul class="menu">
+                <ul class="menu"data-aos="fade-up">
                     <li>
                         <a href="javascript://0" onclick="slowScroll ('#about')">
 							О городе
@@ -35,7 +36,7 @@
                     <img src="img/menu.svg" alt="menu">
                 </button>
             </div>
-            <div class="offer">
+            <div class="offer"data-aos="fade-up">
                 <p>Прекрасный город</p>
                 <h1 class="urban">
 					Чебоксары
@@ -45,23 +46,23 @@
     </header>
 
 
-    <section id="about" class="about">
+    <section id="about" class="about" data-aos="fade-up">
         <div class="container">
             <h2>О городе</h2>
             <div class="description">
-                <div class="about_urban">
+                <div class="about_urban" >
                     <p>Город Чебоксары расположен на обоих берегах Волги и является одним из самых красивейших зеленых городов России. Живописный рельеф, значительные перепады высотных отметок, нетронутые широколиственные и сосновые леса, красочные долины малых рек и безграничной Волги-матушки – все эти факторы формируют индивидуальный архитектурно-композиционный образ города. Парк Победы, Парк им. 500-летия г. Чебоксары, Детский парк им. Николаева, Лакреевский лес, Роща Гузовского, Берендеевский лес, Обиковский лес, Ботанический сад – зелёные массивы, которые служат любимым местом отдыха горожан и гостей столицы.</p>
                     <p>Представление о том, что Чебоксары — чистый город с каждым днем все больше укрепляется. По результатам исследования Domofond.ru, проведенного весной 2016 года, столица Чувашии признана одним из самых зеленых и экологически чистых мест для проживания.Чебоксары не просто вошли в топ-10 российских городов, но и заняли почетное III место, опередив по этим показателям Москву и Санкт-Петербург, которые заняли 14 и 23.</p>
 
                     <div class="gallery gallery_about">
-                        <img src="img/alleya.jpg">
-                        <img src="img/cheb.jpg">
+                        <img src="img/alleya.jpg" data-aos="fade-right" >
+                        <img src="img/cheb.jpg" data-aos="fade-left">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="history" class="about">
+    <section id="history" class="about" data-aos="fade-up">
         <div class="container">
             <h2>История</h2>
             <div class="description">
@@ -72,12 +73,12 @@
                 </div>
             </div>
             <div class="gallery gallery_history">
-                <img src="img/history.jpg" alt="Old Cheb">
-                <img src="img/history1.jpg" alt="Old Cheb1">
+                <img src="img/history.jpg" alt="Old Cheb"  data-aos="fade-right">
+                <img src="img/history1.jpg" alt="Old Cheb1" data-aos="fade-left">
             </div>
         </div>
     </section>
-    <section id="Attractions" class="about Attractions">
+    <section id="Attractions" class="about Attractions" data-aos="fade-up">
         <div class="container">
             <h2>Интересные места</h2>
             <div class="description">
@@ -97,14 +98,14 @@
         </div>
         <div class="container">
             <div class="description">
-                <div class="desc-left">
+                <div class="desc-left" data-aos="fade-right">
                     <h3>Мать-покровительница</h3>
                     <p>Монумент Матери-покровительнице – впечатляющее творение, находящееся в г. Чебоксары Чувашской Республики. Праздник его открытия состоялся 9 мая 2003 года.Скульптура, посвященная образу матери, – не просто городская достопримечательность. Это – республиканская гордость. Величественное произведение искусства является олицетворением духовных ценностей Чувашии.</p>
                     <div class="gallery gallery_attractions">
                         <img src="img/Attractions1.jpg">
                     </div>
                 </div>
-                <div class="desc-right">
+                <div class="desc-right" data-aos="fade-left">
                     <h3>Парк "500-летия Чебоксар"</h3>
                     <p>Здесь каждый найдет развлечение по душе. В парке можно прокатиться на современных аттракционах, прогуляться по Аллее скульптур, на Озере Счастья можно покормить уток и отдохнуть от городской суеты. Зимой здесь можно покататься на ледовом катке и тюбинговой горке, а в летний зной не упустите возможность насладиться комфортным отдыхом на территории Аквазоны «Амазония».</p>
                     <div class="gallery_attractions">
@@ -113,14 +114,14 @@
                 </div>
             </div>
             <div class="description">
-                <div class="desc-left">
+                <div class="desc-left" data-aos="fade-right" >
                     <h3>Лакреевский лес</h3>
                     <p>Памятник природы, «Лакреевский лес» вмещает часть огромной дубравы, которая издавна тянулась на запад от Чебоксар. Для размеренного отдыха в парке имеются 2 кафе, торговые домики, велопрокат, прокат роликовых коньков, терренкур, зоны отдыха с бесплатным вай-файем. В зимнее время в парке работает каток с пунктом проката спортивного инвентаря, прокат взрослых и детских снегоходов, деревянная горка для спуска на тюбингах и проложена лыжная трасса.Для любителей экстрима в зелёной чаще расположились: верёвочный городок, скаллодром, площадки для игр в пейнтбол и лазертаг.</p>
                     <div class="gallery gallery_attractions">
                         <img src="img/lakr_les.jpg">
                     </div>
                 </div>
-                <div class="desc-right">
+                <div class="desc-right" data-aos="fade-left">
                     <h3>Парк им. Николаева</h3>
                     <p>Парк Николаева — самый детский парк в Чебоксарах. Здесь есть всё для детского счастья: аттракционы, анимационные программы, веревочный городок, детские площадки, звери в зооуголке «Ковчег», а зимой еще каток и горки.Кроме того, это один из первых парков в городе — его открыли 25 июля 1962 года и назвали в честь третьего советского космонавта, Дважды Героя Советского Союза и уроженца Чувашии Андрияна Григорьевича Николаева. В Детском парке регулярно проводятся детские культурно–массовые и спортивные мероприятия, смотры художественной самодеятельности, выставки детских работ, рисунков на асфальте. </p>
                     <div class="gallery_attractions">
@@ -128,12 +129,12 @@
                     </div>
                 </div>
             </div>
-            <div class="desc">
+            <div class="desc" data-aos="fade-up">
                     <h3>Залив</h3>
                     <p>Как по мне залив это самое лучшее место в Чебоксарах для отдыха, прогулки с друзьями или просто приятного времяпрепровождения. Здесь есть всё. Здесь можно и повеселится с детьми на больших детских площадках, и осмотреть весь город, сев на колесо обозрения, и вкусно поесть в кафе, ресторане или быстропите. Если хочется острых ощущений можно пойти с друзьями в лабиринт страха. Так же здесь есть лазертаг. Летом, в жару, можно искупаться в прохланой чистой воде реки Волги. Если вы больше любите собраться с друзьями и поиграть в какую-нибудь компьютерную игру, то я вам рекомендую посетить компьютерный клуб "STRIKE ARENA",где вы сможете полностью окунуться в мир компьютерных игр. Каждому кто хочет посетить Чебоксары я советую посетить залив, после которого у вас останутся толко яркие впечатления.</p>
                     <div class="gallery">
-                        <img src="img/bay.jpg">
-                        <img src="img/bay1.jpg">
+                        <img src="img/bay.jpg" data-aos="fade-right">
+                        <img src="img/bay1.jpg" data-aos="fade-left">
                     </div>
             </div>
         </div>
@@ -149,5 +150,9 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="main.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="ap.js"></script>
 </body>
+
 </html>
