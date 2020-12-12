@@ -189,7 +189,11 @@ img{
 }
 .desc{
 	width: 100%;
-	
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+    margin-bottom: 20px;
 }
 /*footer*/
 
